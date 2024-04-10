@@ -1,0 +1,91 @@
+:root {
+    --border-color: #484958;
+    --background: #252842;
+    --bold-font-family: 'Tinos', serif;
+    --text-color: #fff;
+    --active-color: #FE8623;
+    --light-font-family: 'Lato', sans-serif;
+    --comments: #747784;
+}
+.newsPost_FeedContainer {
+    height: 630px;
+    overflow-y:scroll;
+}
+    .newsPost_FeedContainer::-webkit-scrollbar{
+        display:none;
+    }
+    .newsComponents {
+        width: 620px;
+        height: 250px;
+        border: 1px solid var(--border-color);
+        margin-top: 22px;
+        margin-left: 3.2rem;
+        background: var(--background);
+        border-radius: 22px;
+    }
+.user_Details_News_Info {
+    display: flex;
+    margin-top: 22px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.user_Info_news {
+    margin-left: 10px;
+}
+.UserName_Info_details {
+    font-family: var(--bold-font-family);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--text-color);
+    margin-top: 8px;
+    cursor: pointer;
+}
+.caption_Details {
+    color: var(--text-color);
+    font-family: var(--light-font-family);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display:flex;
+    margin-top:12px;
+    margin-left:4.2rem;
+    
+}
+.tags_Details {
+    color: var(--active-color);
+    font-family: var(--light-font-family);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    margin-top:8px;
+    margin-left: 4.5rem;
+}
+.comments_Details{
+    display:flex;
+    margin-top:4rem;
+}
+.comments {
+    color: var(--comments);
+    font-family: var(--light-font-family);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 1.5rem;
+    cursor:pointer;
+}
+.fa-comment-dots {
+    color: var(--text-color);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 2rem;
+    cursor: pointer;
+}

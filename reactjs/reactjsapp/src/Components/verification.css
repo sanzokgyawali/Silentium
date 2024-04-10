@@ -1,0 +1,74 @@
+:root {
+    --paragraph-color: #fff;
+    --buttonCode-color:#D37E25;
+}
+
+.verificationTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--paragraph-color);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 100px;
+}
+
+.enterMessageText {
+    color: var(--paragraph-color);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.otpInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+.countdownText{
+    color: var(--paragraph-color);
+    margin-top:1.5rem;
+}
+.codeNotRecieve
+{
+    color: var(--paragraph-color);
+    margin-top:1.5rem;
+}
+.resendButton {
+    color: var(--paragraph-color);
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    width: 200px;
+    height: 50px;
+    line-height: normal;
+    border-radius: 32px;
+    border:1px solid var(--buttonCode-color);
+    background: var(--buttonCode-color);
+    margin-top: 1.5rem;
+    cursor: pointer;
+    
+}
+.incorrectPhoneNumber
+{
+    color: var(--paragraph-color);  
+    font-size: 15px; 
+    margin-top: 5.5rem;
+    cursor: pointer;
+}
+
+.resend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

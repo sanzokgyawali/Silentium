@@ -1,0 +1,40 @@
+:root{
+    --paragraph-color:#FFF;
+}
+
+#checkedTickMark {
+    width: 180px;
+    height: 180px;
+}
+.checkedLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+.verifiedMsg{
+    color: var(--paragraph-color);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.redirectMsg{
+    width: 400px;
+    color: var(--paragraph-color);
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+}
+.msgre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}

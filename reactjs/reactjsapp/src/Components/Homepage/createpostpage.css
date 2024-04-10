@@ -1,0 +1,116 @@
+:root {
+    --bold-font-family: 'Tinos', serif;
+    --text-color: #fff;
+    --border-color: #484958;
+    --light-font-family: 'Lato', sans-serif;
+    --background-page:#26273B;
+    --post-border-color:#6D7A80;
+}
+
+.wrap_Page {
+    display: flex;
+}
+
+.createpost_Page {
+    width: 658px;
+    height: 445px;
+    border-radius: 26px;
+    border: 1px solid var(--border-color);
+    margin-left: 38px;
+    margin-top: 24px;
+}
+
+.create_Heading_Title {
+
+    font-family: var(--bold-font-family);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--text-color);
+}
+
+.cancel_Mark {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    border: 1px solid var(--search-background-color);
+    background-color: var(--search-background-color);
+    color: var(--text-color);
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 700;
+
+
+
+}
+
+.create_post {
+    display: flex;
+    justify-content: right;
+    margin-right: 2rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.separateLine {
+    border: 1px solid var(--border-color);
+    margin-top: 1rem;
+}
+
+.user_post_Details {
+    display: flex;
+    margin-top: 25px;
+}
+
+.avater_user_Name {
+    font-family: var(--bold-font-family);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--text-color);
+}
+
+.status_user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 28px;
+    font-size: 16px;
+    font-family: var(--light-font-family);
+    font-weight: 700;
+    background-color: var(--border-color);
+    border: 1px solid var(--search-background-color);
+    border-radius: 10px;
+    margin-top: 2px;
+}
+
+textarea {
+    font-family: var(--light-font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    height:150px;
+    width:610px;
+    margin-top: 20px;
+    background-color:var(--background-page);
+    border: none;
+    color:var(--text-color);
+    resize: none;
+}
+.postButton_function{
+    width: 610px;
+height:40px;
+margin-top: 5px;
+font-size: 22px;
+font-family: var(--bold-font-family);
+border-radius: 10px;
+border:1px solid var(--post-border-color);
+background-color: var(--post-border-color);
+color:var(--text-color);
+font-weight: 700;
+cursor: pointer;
+}

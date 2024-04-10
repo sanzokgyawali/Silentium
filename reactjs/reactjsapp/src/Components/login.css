@@ -1,0 +1,101 @@
+:root {
+    --background-color: #26273B;
+    --primary-color: #FFF;
+    --text-color: #9C9DA9;
+    --button-color: #FE8723;
+}
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+}
+.loginPage{
+    width: 100%;
+    height: 100%;
+}
+
+#logo {
+    width: 300px;
+    height: 250px;
+
+}
+
+.appComponents {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Features {
+    display: flex;
+
+}
+
+.FQA {
+    margin-top: 48px;
+    margin-right: 32px;
+    color: var(--text-color);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.aboutUs {
+    margin-top: 48px;
+    margin-right: 80px;
+    color: var(--text-color);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.loginTitle {
+    color: var(--primary-color);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phoneComponent{
+    
+    padding-top: 1rem;
+}
+.notAvailableMessage{
+    margin-top:1.5rem;
+    color: var(--text-color);
+
+}
+.sendOtp{
+    width: 270px;
+height: 56px;
+color: var(--primary-color);
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+background: var(--button-color);
+border-radius: 32px;
+border:1px solid var(--button-color);
+margin-top: 2rem;
+text-decoration: none;
+cursor: pointer;
+}
+.otpComponent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

@@ -1,0 +1,9 @@
+.screenSaverPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#screenLogo{
+    width: 550px;
+    height: 650px;
+}

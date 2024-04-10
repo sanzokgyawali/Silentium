@@ -1,0 +1,105 @@
+:root {
+    --bold-font-family: 'Tinos', serif;
+    --text-color: #fff;
+    --border-color: #484958;
+    --light-font-family: 'Lato', sans-serif;
+    --background-page: #26273B;
+    --post-border-color: #6D7A80;
+}
+
+.msgPage {
+    width: 480px;
+    height:650px;
+    border: 1px solid var(--border-color);
+}
+
+.user_Name {
+    margin-top: 40px;
+    margin-left: 22px;
+    display: flex;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.msg_feature_Component {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 22px;
+}
+
+.msg {
+    border: none;
+    background: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--text-color);
+    font-family: var(--bold-font-family);
+    cursor: pointer;
+}
+
+.req {
+    border: none;
+    background: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--post-border-color);
+    font-family: var(--bold-font-family);
+    cursor: pointer;
+}
+
+/* 
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: var(--post-border-color);
+}
+::-webkit-scrollbar-thumb{
+    background: var(--border-color);
+} */
+
+.all_Message_Details {
+    height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+
+.message_user_Component {
+    display: flex;
+    margin-top: 30px;
+}
+
+.userName_Info {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    font-family: var(--bold-font-family);
+    color: var(--text-color);
+}
+
+.user_Msg_Info {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    font-family: var(--light-font-family);
+    color: var(--post-border-color);
+    margin-top: 5px;
+}
+.info_Test.active{
+    width:480px;
+    display: flex;
+    background: var(--border-color);
+}

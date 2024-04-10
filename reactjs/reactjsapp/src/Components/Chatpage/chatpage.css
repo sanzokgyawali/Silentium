@@ -1,0 +1,16 @@
+.category_Icons_Components{
+    width: 120px;
+    height: 650px;
+}
+
+.category_Features_chatpage{
+    margin-bottom: 25px;
+}
+
+.category_Features_chatpage_setting{
+    margin-top: 40px;
+}
+
+.chatComponent_page{
+    display: flex;
+}

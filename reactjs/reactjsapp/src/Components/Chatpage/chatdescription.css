@@ -1,0 +1,40 @@
+:root {
+    --bold-font-family: 'Tinos', serif;
+    --text-color: #fff;
+    --border-color: #484958;
+    --light-font-family: 'Lato', sans-serif;
+    --background-page: #26273B;
+    --post-border-color: #6D7A80;
+}
+
+.chat_Description {
+    height: 500px;
+    width: 620px;
+    margin-top: 30px;
+}
+
+#silentiumlogo {
+    width: 267.979px;
+}
+
+.logoSilentium {
+    width: 610px;
+    height: 200px;
+
+
+}
+
+.yourMsg {
+    color: var(--text-color);
+    font-size: 20px;
+    font-family: var(--bold-font-family);
+    margin-top: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.prvMsg{
+    color:var(--text-color);
+    font-size: 20px;
+    font-family: var(--light-font-family);
+}

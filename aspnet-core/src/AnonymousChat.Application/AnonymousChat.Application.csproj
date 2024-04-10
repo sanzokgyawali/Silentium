@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <VersionPrefix>1.0.0.0</VersionPrefix>
+    <TargetFramework>net7.0</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>AnonymousChat.Application</AssemblyName>
+    <PackageId>AnonymousChat.Application</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace>AnonymousChat</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Group\**" />
+    <EmbeddedResource Remove="Group\**" />
+    <None Remove="Group\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Abp.AspNetCore.SignalR" Version="8.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Twilio" Version="6.14.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AnonymousChat.Core\AnonymousChat.Core.csproj" />
+    <ProjectReference Include="..\AnonymousChat.EntityFrameworkCore\AnonymousChat.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+</Project>
